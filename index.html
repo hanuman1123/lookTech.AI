@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LookTech.AI - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span class="look">Look</span><span class="Tech">Tech</span><span class="ai">.AI</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#Contact us">contact us</a></li>
+                <li><a href="#" class="cta-button">Sign Up / Login</a></li>
+                <div class="modal" id="signupModal">
+                    <div class="modal-content">
+                        <span class="close" id="closeModal">&times;</span>
+                        <h2>Sign Up / Login</h2>
+                        <form id="signupForm">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                            
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>The AI Glasses That Truly Know You</h2>
+            <p>Capture memories, record key life events in ultra-high quality, and get instant AI assistance.</p>
+        </div>
+        <div class="image-container"></div> <!-- Background Image Container -->
+        <a href="#" class="cta-button">BUY NOW</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="feature">
+            <div class="feature-image-container">
+                <img src="img/feature 1.jpg" alt="Smart AI Integration" class="feature-image">
+            </div>
+            <div class="feature-text">
+                <h2>Smart AI Integration</h2>
+                <p>Our AI-powered glasses offer seamless integration with your digital life, providing intelligent features and intuitive controls.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-image-container">
+                <img src="img/feature 2.jpg" alt="Hands-Free Interaction" class="feature-image">
+            </div>
+            <div class="feature-text">
+                <h2>Hands-Free Interaction</h2>
+                <p>Interact with your devices without touching a screen – voice commands and gestures provide a new level of convenience.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-image-container">
+                <img src="img/feature 3.jpg" alt="Seamless Connectivity" class="feature-image">
+            </div>
+            <div class="feature-text">
+                <h2>Seamless Connectivity</h2>
+                <p>Stay connected with smart notifications, call handling, and messaging directly from your glasses – all synced with your mobile device.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-image-container">
+                <img src="img/feature 4.jpg" alt="Picture Taking & Video Recording" class="feature-image">
+            </div>
+            <div class="feature-text">
+                <h2>Picture Taking & Video Recording</h2>
+                <p>Capture photos and record videos hands-free with built-in cameras, perfect for moments when you can't use your phone or camera.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="technology">
+        <div class="intro">
+            <h1>Our Cutting-Edge Technology</h1>
+            <p>Discover the powerful technologies behind LookTech.AI that are transforming how you interact with the world.</p>
+        </div>
+
+        <div class="technology-highlights">
+            <div class="tech-item">
+                <div class="tech-content">
+                    <img src="img/techonlogy1.png" alt="AI" class="tech-image">
+                    <div class="tech-description">
+                        <h2>Artificial Intelligence</h2>
+                        <p>Our AI technology provides smart, real-time decision-making, allowing your device to adapt and improve user experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-content">
+                    <img src="img/techonology2.jpg" alt="AR" class="tech-image">
+                    <div class="tech-description">
+                        <h2>Augmented Reality</h2>
+                        <p>AR features enable a seamless blend of digital content with the real world, enhancing your interaction with the environment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-content">
+                    <img src="img/battery life.png" alt="Battery Life" class="tech-image">
+                    <div class="tech-description">
+                        <h2>Battery Life</h2>
+                        <p>Long-lasting battery with fast charging ensures that you stay connected and powered up throughout your day.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tech-item">
+                <div class="tech-content">
+                    <img src="img/digitalcsreen.jpg" alt="Digital Screen" class="tech-image">
+                    <div class="tech-description">
+                        <h2>Digital Screen</h2>
+                        <p>A high-resolution digital screen provides an immersive and crisp display for all your content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="real-world-applications">
+            <div class="intro">
+                <h2>Real-World Applications</h2>
+                <p>Our technology is used in a variety of applications, from everyday convenience to groundbreaking innovations. Here are a few examples:</p>
+            </div>
+
+            <div class="applications">
+                <div class="application-item">
+                    <img src="img/application 1.jpg" alt="AI Application" class="application-image">
+                    <div class="application-description">
+                        <h3>AI-powered smart assistants</h3>
+                        <p>AI smart assistants offer real-time responses and actions based on your commands, making everyday tasks easier and smarter.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <img src="img/application 2.jpg" alt="AR Application" class="application-image">
+                    <div class="application-description">
+                        <h3>Augmented reality for navigation</h3>
+                        <p>AR navigation allows real-time overlays on your environment to guide you through your journey with precision and ease.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <img src="img/application 3.jpg" alt="Battery Life Application" class="application-image">
+                    <div class="application-description">
+                        <h3>Long battery life for continuous use</h3>
+                        <p>Experience uninterrupted usage throughout your day with a long-lasting battery designed for efficiency and speed.</p>
+                    </div>
+                </div>
+
+                <div class="application-item">
+                    <img src="img/application 4.jpg" alt="Digital Screen Application" class="application-image">
+                    <div class="application-description">
+                        <h3>High-resolution displays for enhanced visual experience</h3>
+                        <p>Our devices provide crystal-clear, high-resolution displays that bring every visual to life with stunning clarity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+
+     <!-- FAQ Section -->
+     <section id="faq" class="faq">
+        <div class="intro">
+            <h1>Frequently Asked Questions</h1>
+            <p>Find answers to the most common questions about LookTech.AI.</p>
+        </div>
+
+        <div class="questions">
+            <div class="question-item">
+                <h2>What is LookTech.AI?</h2>
+                <p>LookTech.AI is a cutting-edge platform leveraging AI, AR, and other advanced technologies to revolutionize your interaction with the world.</p>
+            </div>
+
+            <div class="question-item">
+                <h2>How does LookTech.AI ensure user privacy?</h2>
+                <p>We prioritize your privacy with robust encryption, secure servers, and strict data handling policies.</p>
+            </div>
+
+            <div class="question-item">
+                <h2>Can I use LookTech.AI on multiple devices?</h2>
+                <p>Yes, our platform supports multiple devices, ensuring seamless integration and synchronization across them.</p>
+            </div>
+
+            <div class="question-item">
+                <h2>Is LookTech.AI free to use?</h2>
+                <p>We offer both free and premium subscription plans. Choose the one that fits your needs.</p>
+            </div>
+        </div>
+    </section>
+    <div class="chatbot">
+        <img src="chatbot-icon.png" alt="Chatbot" id="chatbotIcon">
+    </div>
+    
+    <!-- Chatbot Icon -->
+<div id="chatbotIcon">
+    <img src="img/chatbot-removebg-preview.png" alt="Chatbot" />
+</div>
+
+<!-- Button to Open Chatbot -->
+<button id="openChatButton">Chat with Us!</button>
+
+<!-- Chatbox Modal -->
+<div id="chatbox" class="chatbox">
+    <div class="chatbox-header">
+        <span>Chat with us!</span>
+        <span id="closeChatbox" class="close-chatbox">&times;</span>
+    </div>
+    <div id="messages" class="chatbox-body">
+        <!-- Messages will appear here -->
+    </div>
+    <div class="chatbox-footer">
+        <input type="text" id="userMessage" placeholder="Type a message">
+        <button id="sendMessage">Send</button>
+    </div>
+</div>
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<main>
+    <section id="Contact us"class="contact-details">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Please use the contact form below or reach out to us directly using the provided details.</p>
+        <div class="details">
+            <div>
+                <h3>Address</h3>
+                <p>1234 AI Lane,<br>Tech City, TX 12345</p>
+            </div>
+            <div>
+                <h3>Email</h3>
+                <p><a href="mailto:info@aichatbot.com">info@aichatbot.com</a></p>
+            </div>
+            <div>
+                <h3>Phone</h3>
+                <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span id="closeModal">&times;</span>
+            <h2>Sign Up/Login</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label>
+                <input type="email" id="loginEmail" name="loginEmail" placeholder="Your email" required>
+
+                <label for="loginPassword">Password:</label>
+                <input type="password" id="loginPassword" name="loginPassword" placeholder="Your password" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 AI Chatbot. All rights reserved.</p>
+</footer>
+
+
+</body>
+<script src="script.js" defer></script>
+
+</html>
